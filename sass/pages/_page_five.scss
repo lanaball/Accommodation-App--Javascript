@@ -1,0 +1,88 @@
+.small-card-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+        width: 70vw;
+        margin: 50px auto;
+        border-radius: 3px;
+        -webkit-box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.20);
+        -moz-box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.20);
+        box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.20);
+
+        h2{
+            padding: 10px;
+        }
+        p{
+            padding: 10px;
+        }
+}
+
+.small-card-wrapper.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+
+
+    .accom-img-one{
+        width: 100%;
+    }
+
+    .accom-name-one{
+        font-size: 16px;
+        font-weight: 400;
+        padding: 5px;
+        color: black;
+    }
+
+    .nights-booked-two{
+        color: black;
+    }
+
+    .guests-booked-two{
+        color: black;
+    }
+
+    .accom-price-two{
+        color: black;
+    }
+
+    .meal-price{
+        color: black;
+    }
+
+    .accom-price-one{
+        font-size: 12px;
+        color: black;
+    }
+}
+
+.grid-one{
+    grid-column: 1/-1;
+}
+
+.grid-two{
+    grid-column: 1/-1;
+}
+
+.information{
+    margin: auto;
+    width: 85%;
+
+    label{
+        margin: 0px 35px;
+        margin: auto;
+    }
+
+    input{
+        width: 80%;
+        border: none;
+        border-bottom: .2px solid blue;
+        padding: 20px;
+        margin: 20px auto;
+
+    }
+}
+
+.ta{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+{
+	"house": [
+		{
+			"type": "House",
+			"name": "Ngati Ruanui Stratford Mountain House",
+            "image": "./images/accommodations/beach-house-unsplash.jpg",
+			"price": "$240/night",
+			"amount": "240.00",
+			"guests": "one / two / three / four",
+			"minimum": "2 nights",
+			"maximum": "15 nights",
+			"rating": "3.8",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Set within Egmont National Park, Stratford Mountain House offers a sauna, a restaurant and rooms with a spa bath. Surrounded by lovely dense forest and native gardens, the property is perfectly located for scenic walks. The Stratford Mountain House is 20 minutes’ drive from Stratford’s town centre. Inglewood is 30 minutes’ drive away. Nearby hiking tracks include a trail 2,518 m above sea level and a popular walk through the ‘Goblin Forest’. Overlooking the gardens, Mountain House Café and Restaurant is open on Wednesday to Sundays. It offers a wide selection of international cuisine, cooked by top chefs. The bar serves a variety of beer and wine. All rooms feature a forest views, a flat-screen TV, a desk and a wardrobe. Each includes tea/coffee making facilities and electric blankets."
+		},
+		{
+			"type": "House",
+			"name": "65on45: Okato Retro Studio",
+            "image": "./images/accommodations/forest-house-unsplash.jpg",
+			"price": "$240/night",
+			"amount": "240.00",
+			"guests": "one / two / three / four",
+			"minimum": "2 nights",
+			"maximum": "15 nights",
+			"rating": "4.2",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "This cosy, remodelled self-contained studio is located on Surf Highway 45, the main route through Ōkato village, one of Taranaki’s most historic and creative areas. Only 20 minutes from New Plymouth but far enough to enjoy village life. Explore the mountain or coastal scenic areas with this studio as your base. Fun and stylish this unique space is perfect for those looking to stay somewhere a bit different. Pets allowed - 2 max. Please book your pets in when booking - there is a $30 pet fee. Built in 1961, your studio apartment started life as a Pharmacy. Along the years it has been an Art Gallery and Photographic Studio. We have renovated it with that in mind - providing a creative retreat with a contemporary loft-style feel. Property is directly on the main road - there may be vehicle noise at times. Cook in the retro kitchenette and dine on the deck surrounded by mature trees. After a cold surf, enjoy a hot soak in the bath on the enclosed bathing deck. The unique fittings and design features enable the studio to 'pack down' and transform from a cosy living space to a pop-up gallery or shop. All ideas welcome! We can recommend some wonderful walks and fishing spots on Hangatahua (Stony) River and the beautiful coastline. Eating out options include delicious pies and coffee across the road at Downtown Cafe, delicious eats at Mighty Ltd, excellent fish and chips next door, licences dining at Stony House, or Italian in nearby Ōakura. Guest access: Private parking for one small/medium car - off the street. If you have a larger vehicle we recommend you park on the street (free parking). Other things to note: Pets allowed - two pets maximum. Please use the booking system to book your pets in - there is a $30 per stay pet/cleaning fee. Pets are not allowed on furniture, or left alone without prior approval."
+		},
+		{
+			"type": "House",
+			"name": "Waiiti Farmstay - Peaceful private nature escape",
+            "image": "./images/accommodations/beach-house-unsplash.jpg",
+			"price": "$240/night",
+			"amount": "240.00",
+			"guests": "one / two / three / four",
+			"minimum": "2 nights",
+			"maximum": "15 nights",
+			"rating": "4.9",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Waiiti Farmstay- A true alternative nature escape only 30mins from New Plymouth. Experience total peace and quiet with an abundance of birdlife. Numerous farm animals, pets to interact with. All 3x Bach's are private, have amazing elevated outlooks down a bushclad valley with panoramic sea views and breathtaking sunsets. All Linen provided. Powered by alternative solar. New ablution block with Fully kitted Kitchen,hot shower, bathroom, flush toilet. Guest access: Welcome to venture over any walk tracks, play in the ponds, pat the animals, climb up to Historical site for wonderful views, watch the sunset from the picnic deck. There are many friendly house pets for you to interact with and enjoy- mini pig, chooks, goats, sheep, dogs, cats, horses. Be mindful of farm stock and horses on the land. Other things to note: Waiiti Farmstay is 100% self sufficient, the SOLAR SYSTEM is NOT compatible with ELECTRICAL heating devices (ie..hair straightners, blow wavers, toaster,heater ) these will overload and drain the battery bank effecting power supply to the entire property. System is totally fine to charge your phone, laptop etc. Gas is supplied for cooking and gas heater available for the colder months. Please clean up any dishes you use and leave kitchen as you find it. Pets are welcome with prior notice and must be controlled at all times to protect themselves and birdlife (chickens, pet cat, kiwi, pheasants etc). Bring you own feed/water bowls and crate/pet bed as your pet is not to sleep on bach furniture or in bed. Fully catered stays are available offering continental or cooked breakfast from $15pp, picnic lunch $15pp, 3-course dinner with complimentary wine $50pp; Menu can be forwarded on enquiry as bookings required 1 day in advance. Property is not suitable for any guests with mobility issues as there are steps on the pathways to access kitchen & toilet, these do not have handrails to assist if walking is limited. To book a horse trek refer: www.horsetrekn.com"
+		}
+	]
+}

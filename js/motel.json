@@ -1,0 +1,56 @@
+{
+	"motel": [
+		{
+			"type": "Motel",
+			"name": "The Metrotel",
+            "image": "./images/accommodations/motel.jpg",
+			"price": "$90/night",
+			"amount": "90.00",
+            "guests": "two / three / four",
+			"minimum": "3 nights",
+			"maximum": "10 nights",
+			"rating": "3.8",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Featuring free WiFi, The Metrotel offers accommodation in New Plymouth. Free private parking is available on site. Each room at this motel is air conditioned and is equipped with a flat-screen TV with satellite channels. You will find a kettle in the room. All rooms are equipped with a private bathroom fitted with a shower. For your comfort, you will find free toiletries and a hairdryer."
+		},
+		{
+			"type": "Motel",
+			"name": "The Dawson Motel",
+            "image": "./images/accommodations/motel.jpg",
+			"price": "$90/night",
+			"amount": "90.00",
+            "guests": "two / three / four",
+			"minimum": "3 nights",
+			"maximum": "10 nights",
+			"rating": "4.2",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Newly opened in 2011, this motel offers air-conditioned studios and apartments with flat-screen satellite TV and DVD players. Guests have free access to bicycles for exploring the local area. The Dawson Motel is located in the centre of New Plymouth, just 150 m from the Coastal Walkway. It is a 5-minute walk to Puke Ariki and a 5-minute drive to Pukekura Park. Each self-contained unit includes air conditioning and a microwave, refrigerator and tea/coffee making facilities. Some units include a fully equipped kitchen. There is an iPod docking station and a private bathroom in every unit. The apartments and guest rooms offer a mountain or sea view, subject to availability."
+		},
+		{
+			"type": "Motel",
+			"name": "Ratanui Villas",
+            "image": "./images/accommodations/motel.jpg",
+			"price": "$90/night",
+			"amount": "90.00",
+            "guests": "two / three / four",
+			"minimum": "3 nights",
+			"maximum": "10 nights",
+			"rating": "5",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Set in 8.5 acres of park-like grounds, Ratanui Villas is 6 minutes' drives from the city centre. There is a large garden for guests to enjoy. Free WiFi and parking is provided. All rooms offer king sized beds and each has a kitchenette, some rooms have kitchens. The property is 4 km from the infamous Bowl of Brooklans and 10 km from beaches and golf courses. Mt Taranaki (North Egmont Visitors centre) is a 20-minute drive away."
+		},
+		{
+			"type": "Motel",
+			"name": "Beach Street Motel Apartments",
+            "image": "./images/accommodations/motel.jpg",
+            "price": "$90/night",
+			"amount": "90.00",
+            "guests": "two / three / four",
+			"minimum": "3 nights",
+			"maximum": "10 nights",
+			"rating": "4.8",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Just 200 m from Fitzroy Beach and the New Plymouth Coastal Walkway, Beach Street Motel Apartments offer modern apartment-style accommodation with a flat-screen TV. Fitzroy Beach Motor Inn New Plymouth is 5 minutes’ drive from central New Plymouth and the Puke Ariki Museum. New Plymouth Airport and Pukekura Park are each a 10-minute drive away. All air-conditioned rooms feature a dining and lounge area with a flat-screen TV with cable channels. They offer a kitchenette or a kitchen with a microwave, fridge and toaster. They have ironing facilities and an en suite bathroom with free toiletries and a hairdryer. Guests enjoy free bicycle hire and a free daily newspaper. Wi-Fi and a guest laundry are available upon request. Continental and cooked breakfast is available for an additional charge. "
+		}
+	]
+}

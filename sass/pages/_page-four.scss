@@ -1,0 +1,110 @@
+.big-card-wrapper{
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    width: 90vw;
+    height: 80vh;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.20);
+    overflow: hidden;
+
+    .sub-scrollable{
+        width: 80vw;
+        margin: 1rem auto;
+        max-height: 80vh;
+        overflow-y: scroll; 
+    }
+
+    h3{
+        padding: 20px 0;
+    }
+}
+
+.accom-img{
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.accom-name{
+    padding: 10px;
+}
+
+.star-rating{
+    display: grid;
+    grid-template-columns: 1fr 30px 20px;
+    margin: 0;
+
+    .star{
+        width: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .accom-rating{
+        // display: flex;
+        // justify-content: flex-start;
+        padding-right: 5px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.accom-price{
+    font-weight: bold;
+}
+
+.meal-options{
+    padding-top: 20px;
+    margin: auto;
+    // border: .1px grey solid;
+}
+
+#meal-options{
+   padding: 20px;
+   font-size: 12px;
+   width: 100%;
+   border: none;
+   background-color: white;
+   border-bottom: 2px blue solid;
+}
+
+.meal-label{
+   padding: 0;
+   margin: 25px 0;
+   width: 60%;
+}
+
+.accom-details{
+    padding-bottom: 50px;
+}
+
+
+.total-results{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 10px;
+    // border: .1px grey solid;
+
+.accom-total{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.tots{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 10px;
+    color: black;
+}
+}
+
+
+
+

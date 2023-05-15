@@ -1,0 +1,46 @@
+.results{
+    border: .2px grey solid;
+    padding: 10px;
+    margin: auto;
+    width: 70vw;
+}
+
+
+.accommodation{
+	position: relative;
+    display: flex;
+    flex-direction: column;
+        width: 80vw;
+        height: 280px;
+        margin: 50px auto;
+        border-radius: 3px;
+        -webkit-box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.20);
+        -moz-box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.20);
+        box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.20);
+      }
+
+      
+.accommodation-img{
+    margin: 0;
+    border-radius: 3px 3px 0px 0px;
+    width: 80vw;
+    max-height: 60%;
+}
+
+.price{
+    color: grey;
+}
+
+.heart{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 25px;
+}
+
+.hide{
+	display: none;
+}
+
+
+

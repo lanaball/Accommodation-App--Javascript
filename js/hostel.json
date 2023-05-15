@@ -1,0 +1,43 @@
+{
+	"hostel": [
+		{
+			"type": "Hostel",
+			"name": "Araki Hostel",
+            "image": "./images/accommodations/hostelbunks-unsplash.jpg",
+			"price": "$30/night",
+			"amount": "30.00",
+			"guests": "1 / 2 / 3 / 4",
+			"minimum": "1 nights",
+			"maximum": "10 nights",
+			"rating": "4.2",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Ariki Backpackers New Plymouth. Ariki Backpackers is a fun, friendly, laid-back hostel in the heart of New Plymouth. Ariki Backpackers offers a range of dooms, including a girls only dorm, private rooms, and a family room. Sleeps up to 42. Ideal for sports teams young and old, also tour and social groups."
+		},
+		{
+			"type": "Hostel",
+			"name": "Mount Taranaki DOC Hut",
+            "image": "./images/accommodations/hostelswing-unsplash.jpg",
+			"price": "$30/night",
+			"amount": "30.00",
+			"guests": "1",
+			"minimum": "1 nights",
+			"maximum": "10 nights",
+			"rating": "5",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Sit on the deck and enjoy views out to the Taranaki coastline, or go for a short walk to photograph reflections of Mt Taranaki in the Pouakai tarns. An hour's tramp will take you down into the mighty Ahukawakawa Swamp with its unique flora and fauna. Cold running water from a rainwater tank. Heating from a wood burner. Wood is supplied. Containment tank toilet a short walk from the hut"
+		},
+		{
+			"type": "Hostel",
+			"name": "Ducks and Drakes Backpackers",
+            "image": "./images/accommodations/hostelbunks-unsplash.jpg",
+			"price": "$30/night",
+			"amount": "30.00",
+			"guests": "1",
+			"minimum": "1 nights",
+			"maximum": "10 nights",
+			"rating": "4.8",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "A warm welcome awaits you at Ducks & Drakes. We love it when our guests tell us it is more like staying in a large house than staying in a hostel. Ducks & Drakes started its life as a private hotel in the 1920s. Today it is a colourful, vibrant, fun place to stay. We are minutes away from the city centre; coastal walkway; Pukekura Park; museums; galleries and a great base to explore further afield. All our doubles, twins, singles and dorms have fully made beds with sheets, duvets and pillows supplied. The private rooms also have towels. We have a tent site in our sunny garden as well as laundry facilities, free and fast wifi, bike storage; and a choice of three supermarkets close by. Our fully equipped kitchen is a great place to make new friends; eat at our fabulous, and very long, dining room table; curl up with a good book in our sunroom; watch a DVD or one of the 50+ Sky channels in the guest lounge; or totally recharge your batteries in our sauna after a day in the sun, surf or conquering Mt Taranaki. When your travels bring you to New Plymouth Ducks & Drakes is a great place to stay"
+		}
+	]
+}

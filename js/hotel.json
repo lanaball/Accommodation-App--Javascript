@@ -1,0 +1,56 @@
+{
+	"hotel": [
+		{
+			"type": "Hotel",
+			"name": "The Devon Hotel, A Heritage Hotel",
+			"image": "./images/accommodations/hotel-room-unsplash.jpg",
+			"amount": "157.00",
+			"price": "$157/night",
+			"guests": "one / two",
+			"minimum": "1 nights",
+			"maximum": "5 nights",
+			"rating": "4.9",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "The Devon Hotel and Conference Centre boasts a buffet restaurant, a heated outdoor pool and free use of mountain bikes. The property offers free on-site parking and free WiFi. The rooms offer free internet access. Amenities include a fridge, tea/coffee making facilities and a flat-screen TV with satellite channels. The property offers a guest laundry and a same-day dry cleaning service. Gaming devices are available for use. Marbes Buffet Restaurant features a selection of seafood, vegetarian and oriental dishes for dinner. Drinks and an all-day menu can be found at The Rocks Lounge Bar. 24-hour room service is available. Devon Hotel and Conference Centre is a 3-minute drive from Pukekura Park, and 500 m from the Foreshore and Coastal Walkways. It is 1.5 km from the New Plymouth Centre and a 12-minute drive from New Plymouth Airport. Mount Egmont is a 50-minute drive away."
+		},
+		{
+			"type": "Hotel",
+			"name": "Novatel, New Plymouth",
+			"image": "./images/accommodations/hotel room.jpg",
+			"amount": "157.00",
+			"price": "$157/night",
+			"guests": "one / two",
+			"minimum": "1 nights",
+			"maximum": "5 nights",
+			"rating": "4.5",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Offering stylish rooms with free WiFi, the 4.5-star Novotel New Plymouth Taranaki is conveniently located close to the heart of the CBD. Facilities include an onsite restaurant and bar. Scenic coastal walks can be enjoyed nearby. Accommodation options include spacious rooms and one or two bedroom apartments. All rooms are air-conditioned and offer an en suite bathroom, flat-screen TV with cable channels, a fridge and mini bar, and tea/coffee making facilities. Interconnecting and accessible rooms are available on request. Free parking is provided onsite. Located on the ground floor, Haukai Bistro & Bar highlights the best local produce from around the Taranaki region. There is a spacious indoor dining area, and an outdoor area where you can relax with your meal and a glass of New Zealand Wine. Buffet breakfast is also available."
+		},
+		{
+			"type": "Hotel",
+			"name": "The State Hotel",
+			"image": "./images/accommodations/edelle-bruton-PJNO2sLlbB8-unsplash.jpg",
+			"amount": "157.00",
+			"price": "$157/night",
+			"guests": "one / two",
+			"minimum": "1 nights",
+			"maximum": "5 nights",
+			"rating": "3.8",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "You're eligible for a Genius discount at The State Hotel! To save at this property, all you have to do is sign in. Located in the heart of New Plymouth, walking distance to the city's finest restaurants, art, retail and business precincts. The State Hotel is a 15 room boutique hotel and only a 5-minute walk to the New Plymouth Coastal Walkway. The State Hotel is also only 5 minutes' drive to TSB Bowl of Brooklands, Yarrows Stadium, TSB Stadium and 15 minutes drive to New Plymouth Airport. All air-conditioned rooms are individually decorated with eclectic furniture, New Zealand art and deep pile striped carpet. Free WiFi and satellite channels are provided. Rooms also feature tea and coffee making facilities, a microwave and a refrigerator. They have a private bathroom with a shower and free toiletries. Free parking is available at the rear of the hotel and is subject to availability."
+		},
+		{
+			"type": "Hotel",
+			"name": "Nice Hotel",
+			"image": "./images/accommodations/hotel room.jpg",
+			"amount": "157.00",
+			"price": "$157/night",
+			"guests": "one / two",
+			"minimum": "1 nights",
+			"maximum": "5 nights",
+			"rating": "4.2",
+			"address": "25 Ariki Street, Taranaki",
+			"details": "Featuring stylish rooms with a double spa bath, flat-screen satellite TV and an iPod dock, Nice Hotel is located next to the historic St. Mary’s Church. It features an award-winning restaurant and free on-site parking. Built in 1870, Nice Hotel New Plymouth is only 5 minutes’ walk from the Tasman Sea and the famous Govett-Brewster Art Gallery. Pukekura Park is a 5-minute drive, and New Plymouth Airport is a 15-minute drive away. A minibar, work desk and tea and coffee making facilities are standard in all rooms. Each room features contemporary artwork, a spacious seating area and a DVD player. Table Restaurant offers an outdoor patio with a fireplace and tropical gardens. The seasonal menu features steaks, seafood and a wide range of cocktails and fine wines. The tour desk can help guests with travel arrangements."
+		}
+	]
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css" />
+        <script defer src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/litepicker/dist/litepicker.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script defer src="./js/creditcardform.js"></script>
+        <script defer src="./js/main.js"></script>
+        <script defer src="./js/checkifs.js"></script>
+        <script defer src="./js/data-load.js"></script>
+        <script defer src="./js/calculations.js"></script>
+    </head>
+
+    <body>
+        <div class="all-screens">
+            <div id="one" class="section">
+                <img class="main-image" src="./images/accommodations/mountbach.webp" alt="fa">
+                <img onanimationend="animationEnd()" class="logo" src="./images/logos/taranakilogo-LNO.svg" alt="white">
+            </div>
+            <div id="two" class="section">
+                <button onclick="goBackSection('#one')" class="go-back one">
+                    < </button>
+                        <button class="hamburger hamburger--elastic" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <div class="wrapper">
+                            <h4 class="city"></h4>
+                            <div class="my-slider splide">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="fa splide__slide">
+                                            <img src="./images/accommodations/camping.webp" alt="fa">
+                                        </li>
+                                        <li class="fa splide__slide">
+                                            <img src="./images/accommodations/david-billings-U6pLKRSQLis-unsplash.jpg" alt="fa">
+                                        </li>
+                                        <li class="fa splide__slide">
+                                            <img src="./images/accommodations/pouakais.webp" alt="fa">
+                                        </li>
+                                        <li class="fa splide__slide">
+                                            <img src="./images/accommodations/vuetaranaki.webp" alt="fa">
+                                        </li>
+                                        <li class=" fa splide__slide">
+                                            <img src="./images/accommodations/tinyhouse.webp" alt="fa">
+                                        </li>
+                                        <li class="fa splide__slide">
+                                            <img src="./images/accommodations/roadtomt.jpg" alt="fa">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="fa-fa" src="./images/logos/taranakilogoblack.png" alt="black">
+                        <div class="inputs-wrapper">
+                            <div class="inputs-grid">
+                                <!-- Nights -->
+                                <div><label class="dates" for="dates">Dates</label>
+                                    <input class="nights" id="litepicker" type="text" placeholder="Check In and Out Dates" />
+                                </div>
+                                <!-- Guests -->
+                                <div>
+                                    <label class="guest-label" for="guests">Guests</label>
+                                    <input class="guests" type="number" name="guests" min="1" max="4" placeholder="Add Guests" />
+                                    <p class="message"></p>
+                                </div>
+                            </div>
+                            <button id="check-inputs" onclick="userSearch()" class="btn custom-btn search disabled">SEARCH</button>
+                        </div>
+            </div>
+            <div id="three" class="section">
+                <button onclick="goBackSection('#two')" class="go-back">
+                    < </button>
+                        <header>
+                            <button class="hamburger hamburger--elastic" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </header>
+                        <section class="results">
+                            <h2>Your Summary</h2>
+                            <p>Dates: <span class="nights-booked"></span> </p>
+                            <p>Guests: <span class="guests-booked"></span></p>
+                        </section>
+                        <section class="sub-scrollable">
+                            <div class="accom-wrapper"></div>
+                        </section>
+            </div>
+            <div id="four" class="section">
+                <button onclick="goBackSection('#three')" class="go-back">
+                    < </button>
+                        <header>
+                            <button class="hamburger hamburger--elastic" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </header>
+                        <h2>Accommodation Details</h2>
+                        <hr>
+                        <div class="big-card-wrapper">
+                            <section class="sub-scrollable">
+                                <img class="accom-img" src="" alt="">
+                                <h3 class="accom-name"></h3>
+                                <div class="star-rating">
+                                    <div>
+                                        <p class="accom-price"></p>
+                                    </div>
+                                    <div><img class="star" src="./images/icons/star_FILL0_wght400_GRAD0_opsz48(1).svg" alt="star">
+                                    </div>
+                                    <p class="accom-rating"></p>
+                                </div>
+                                <p class="accom-details"></p>
+                                <hr>
+                                <p>Dates: <span class="nights-booked-one"></span> </p>
+                                <p>Guests: <span class="guests-booked-one"></span></p>
+                                <div class="total-results">
+                                    <h3>Total Cost</h3>
+                                    <p class="tots"> $ <span class="accom-total"></span></p>
+                                </div>
+                                <hr>
+                                <div class="google-map"></div>
+                                <div class="meal-options">
+                                    <label class="meal-label" for="meal-options"> Select a Meal Option</label>
+                                    <br>
+                                    <select name="option" id="meal-options">
+                                        <option value="none" selected="">Select a Meal Option - None</option>
+                                        <option value="breakfast"> Breakfast: $10 (per guest)</option>
+                                        <option value="lunch"> Lunch: $20 (per guest)</option>
+                                        <option value="dinner">Dinner: $30 (per guest)</option>
+                                        <option value="all"> Breakfast, Lunch and Dinner: $55 (per guest)</option>
+                                    </select>
+                                </div>
+                                <div> <button class="btn custom-btn book-now"> CONTINUE </button></div>
+                            </section>
+                        </div>
+            </div>
+            <div id="five" class="section">
+                <button onclick="goBackSection('#four')" class="go-back">
+                    < </button>
+                        <header>
+                            <button class="hamburger hamburger--elastic" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </header>
+                        <h2>Booking Details</h2>
+                        <hr>
+                        <img class="fa-fa ta" src="./images/logos/taranakilogoblack.png" alt="logo">
+                        <section class="sub-scrollable">
+                            <div class="small-card-wrapper grid">
+                                <div><img class="accom-img-one" src="" alt=""></div>
+                                <div>
+                                    <h4 class="accom-name-one"></h4>
+                                    <p> $ <span class="accom-price-one"></span> /per night</p>
+                                </div>
+                            </div>
+                            <div class="small-card-wrapper grid">
+                                <div class="grid-one">
+                                    <h2>Finalize Your Booking</h2>
+                                    <hr>
+                                </div>
+                                <div>
+                                    <p>Dates:</p>
+                                </div>
+                                <div>
+                                    <p class="nights-booked-two"></p>
+                                </div>
+                                <div>
+                                    <p>Nights:</p>
+                                </div>
+                                <div>
+                                    <p class="length-booking"></p>
+                                </div>
+                                <div>
+                                    <p>Guests:</p>
+                                </div>
+                                <div>
+                                    <p class="guests-booked-two"></p>
+                                </div>
+                                <div>
+                                    <p>Price:</p>
+                                </div>
+                                <div>
+                                    <p>$<span class="accom-price-two"></span></p>
+                                </div>
+                                <div>
+                                    <p class="meal-type"></p>
+                                </div>
+                                <div>
+                                    <p>$<span class="meal-price"> </span></p>
+                                </div>
+                                <div class="grid-two">
+                                    <hr>
+                                </div>
+                                <div>
+                                    <h2>Total:</h2>
+                                </div>
+                                <div>
+                                    <h2>$<span class="guest-total"></span>NZD</h2>
+                                </div>
+                                <button class="btn custom-btn pay"> RESERVE </button>
+                            </div>
+                        </section>
+            </div>
+            <div id="six" class="section">
+                <button onclick="goBackSection('#five')" class="go-back">
+                    < </button>
+                        <header>
+                            <button class="hamburger hamburger--elastic" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </header>
+                        <h2>Payment Details</h2>
+                        <hr>
+                        <div class="sub-scrollable">
+                            <div class="small-card-wrapper">
+                                <div class="information">
+                                    <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                                    <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                                    <input type="text" name="email" class="email" placeholder="Email" />
+                                    <span class="message"></span>
+                                </div>
+                            </div>
+                            <div class="credit-card-wrapper ">
+                                <div class="credit-card is-front">
+                                    <div class="card-front">
+                                        <img src="./images/icons/pngegg(1).png" class="chip" alt="fa">
+                                        <div class="card-number">
+                                            <span>XXXX</span>
+                                            <!--
+                                    --><span>XXXX</span>
+                                            <!--
+                                    --><span>XXXX</span>
+                                            <!--
+                                    --><span>XXXX</span>
+                                        </div>
+                                        <div class="exp">
+                                            <span class="label">Good Thru</span>
+                                            <span class="date">MM/YY</span>
+                                        </div>
+                                        <div class="name-on-card"> CARDHOLDER </div>
+                                        <img src="./images/icons/chip.png" class="visa" alt="fa">
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="signature"><span class="sig-name">Cardholder</span>
+                                            <div class="cvv">XXX</div>
+                                        </div>
+                                        <div class="card-number">
+                                            <span>XXXX</span>
+                                            <span>XXXX</span>
+                                            <span>XXXX</span> ><span>XXXX</span>
+                                        </div>
+                                        <div class="name-on-card"> CARDHOLDER </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <form>
+                                        <label>Name on Card</label>
+                                        <input type="text" class="name" placeholder="John Smith">
+                                        <label>Card Number</label>
+                                        <input type="text" class="number" maxlength="16" placeholder="XXXXXXXXXXXXXXXX">
+                                        <div>
+                                            <p class="message-form"> </p>
+                                        </div>
+                                        <div class="column">
+                                            <label>CVV</label>
+                                            <input type="text" class="cvv" maxlength="3" placeholder="XXX">
+                                        </div>
+                                        <div class="column">
+                                            <label>Expiration Date</label>
+                                            <input type="text" class="expiration" id="datepicker" maxlength="4" placeholder="mm/yy">
+                                        </div>
+                                        <button id="check-inputs-form" onclick="checkPaymentInputs()" class="btn custom-btn btn-form"> PAY
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            <div id="seven" class="section">
+                <button onclick="goBackSection('#six')" class="go-back">
+                    < </button>
+                        <header>
+                            <button class="hamburger hamburger--elastic" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </header>
+                    
+                        <h2 class="thanks">Booking Confirmed</h2>
+                        
+                        <hr>
+                        <div class="small-card-wrapper">
+                           <img class="accom-image" src="" alt="">
+                           <p>Please Check-In and Out by:</p>
+                           <p class="nights-booked-three"></p>
+                            <p>Address: <span class="address"></span></p>
+                        </div>
+                        <hr>
+                        <h2 class="thanks">Thank You!</h2>
+                            <!-- <img class="successful-end" src="./images/logos/taranakiill.webp" alt="fa"> -->
+                        
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,61 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    padding: 0;
+    font-size: 48px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+p{
+    font-size: 12px;
+    color: darkslategrey;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    margin: 0;
+}
+
+.price{
+    padding-left: 10px;
+}
+
+.title{
+    padding-top: 15px;
+    padding-left: 10px;
+    color: black;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.success{
+    columns: blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.thanks{
+    color: blue;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
